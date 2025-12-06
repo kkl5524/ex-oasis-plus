@@ -1,0 +1,26 @@
+# Python environment and caches
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data files 
+output/synthea_data/
+synthea/
+mimic_demo/
+*.zip
