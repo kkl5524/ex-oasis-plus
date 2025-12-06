@@ -182,10 +182,11 @@ Additional machine learning features derived from clinical measurements.
 
 Generated outputs are saved in the `output/` directory:
 
-- `output/data/oasis_plus.csv` - Complete processed dataset
-- `output/data/train/oasis_train.csv` - Training set
-- `output/data/valid/oasis_valid.csv` - Validation set
-- `output/data/test/oasis_test.csv` - Test set
+- `output/data/oasis_plus.csv` - Complete processed synthetic dataset
+- `output/data/oasis_plus.csv` - Completed predictions for synthetic data
+- `output/data/train/oasis_train.csv` - Training set created after running oasis_plus_data.py
+- `output/data/valid/oasis_valid.csv` - Validation set created after running oasis_plus_data.py
+- `output/data/test/oasis_test.csv` - Test set created after running oasis_plus_data.py
 - `results/oasis_xgb200.joblib` - Trained XGBoost model
 - `results/oasis_filter.joblib` - Feature selector model
 - `output/metadata/*.json` - Metadata about data generation
